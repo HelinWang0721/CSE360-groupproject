@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="391.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupproject.projectcontroller">
+   <children>
+      <Pane layoutY="-22.0" prefHeight="554.0" prefWidth="656.0">
+         <children>
+            <TextField fx:id="reg_FirstName_text" layoutX="252.0" layoutY="214.0" />
+            <Text layoutX="53.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name: ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="reg_LastName_text" layoutX="252.0" layoutY="255.0" />
+            <Text layoutX="53.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday(MM/DD/YYYY): ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="reg_Birthday_text" layoutX="252.0" layoutY="297.0" />
+            <Button fx:id="creataccount" layoutX="216.0" layoutY="452.0" mnemonicParsing="false" onAction="#switchtoroot" prefHeight="51.0" prefWidth="271.0" text="Create Your Account" />
+            <Text layoutX="54.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FirstName: ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="reg_Gender_text" layoutX="252.0" layoutY="344.0" />
+            <Text layoutX="53.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile: ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="reg_Mobile_text" layoutX="252.0" layoutY="390.0" />
+            <Text layoutX="210.0" layoutY="58.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient Register System">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="reg_Username_text" layoutX="246.0" layoutY="92.0" />
+            <TextField fx:id="reg_Password_text" layoutX="245.0" layoutY="142.0" />
+            <Label layoutX="69.0" layoutY="89.0" text="Username" />
+            <Label layoutX="77.0" layoutY="141.0" text="Password" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
