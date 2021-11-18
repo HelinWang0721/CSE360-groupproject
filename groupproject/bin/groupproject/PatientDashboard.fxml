@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupproject.projectcontroller">
+   <children>
+      <Text layoutX="14.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First name: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="7.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient personal information">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birth Date:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="214.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Height:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="214.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tel:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message History:" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="PatientRecived" editable="false" layoutX="152.0" layoutY="190.0" prefHeight="149.0" prefWidth="447.0" visible="false" />
+      <TextField fx:id="patient_sendmessage" layoutX="152.0" layoutY="355.0" prefHeight="71.0" prefWidth="447.0" visible="false" />
+      <Text layoutX="88.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send:" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="SendMessage_Button" layoutX="480.0" layoutY="444.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" text="Send Message" visible="false" />
+      <Text layoutX="13.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="patient_username" layoutX="102.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="dash_firstname" layoutX="104.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="dash_lastname" layoutX="95.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="dash_gender" layoutX="79.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="dash_BOD" layoutX="94.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="dash_height" layoutX="272.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="dash_weight" layoutX="276.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="dash_tel" layoutX="251.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+   </children>
+</Pane>
