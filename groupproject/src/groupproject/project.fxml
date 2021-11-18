@@ -20,20 +20,20 @@
 											<content>
 												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="296.0" prefWidth="600.0">
 													<children>
-														<Text fx:id="nameText" layoutX="177.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
+														<Text fx:id="nameText" layoutX="100.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
 															<font>
 																<Font size="19.0" />
 															</font>
 														</Text>
-														<TextField fx:id="nameField" layoutX="274.0" layoutY="70.0" />
-														<PasswordField fx:id="PasswordField" layoutX="274.0" layoutY="111.0" />
-														<Text fx:id="passworfText" layoutX="179.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
+														<Text fx:id="passworfText" layoutX="100.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
 															<font>
 																<Font size="19.0" />
 															</font>
 														</Text>
-														<Button fx:id="regbutton" layoutX="323.0" layoutY="187.0" mnemonicParsing="false" onAction="#switchtoreg" prefHeight="45.0" prefWidth="120.0" text="Regsiter" />
-                                          <Button fx:id="patientLogin_button" layoutX="147.0" layoutY="187.0" mnemonicParsing="false" onAction="#patientLogin" prefHeight="45.0" prefWidth="120.0" text="Login" />
+														<TextField fx:id="nameField" layoutX="210.0" layoutY="80.0" prefHeight="30.0" prefWidth="290.0" />
+														<PasswordField fx:id="PasswordField" layoutX="210.0" layoutY="140.0" prefHeight="30.0" prefWidth="290.0" />
+														<Button fx:id="patientLogin_button" layoutX="150.0" layoutY="220.0" mnemonicParsing="false" onAction="#patientLogin" prefHeight="45.0" prefWidth="120.0" text="Login" />
+														<Button fx:id="regbutton" layoutX="320.0" layoutY="220.0" mnemonicParsing="false" onAction="#switchtoreg" prefHeight="45.0" prefWidth="120.0" text="Regsiter" />
 													</children>
 												</AnchorPane>
 											</content>
@@ -41,41 +41,43 @@
 										<Tab text="Nurse">
 											<content>
 												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                                       <children>
-                                          <Text fx:id="passworfText1" layoutX="179.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
-                                             <font>
-                                                <Font size="19.0" />
-                                             </font>
-                                          </Text>
-                                          <PasswordField fx:id="PasswordField1" layoutX="274.0" layoutY="111.0" />
-                                          <TextField fx:id="nameField1" layoutX="274.0" layoutY="70.0" />
-                                          <Text fx:id="nameText1" layoutX="177.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
-                                             <font>
-                                                <Font size="19.0" />
-                                             </font>
-                                          </Text>
-                                          <Button layoutX="240.0" layoutY="200.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Login" />
-                                       </children></AnchorPane>
+													<children>
+														<Text fx:id="nameText1" layoutX="100.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
+															<font>
+																<Font size="19.0" />
+															</font>
+														</Text>
+														<Text fx:id="passworfText1" layoutX="100.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
+															<font>
+																<Font size="19.0" />
+															</font>
+														</Text>
+														<TextField fx:id="nameField1" layoutX="210.0" layoutY="80.0" prefHeight="30.0" prefWidth="290.0" />
+														<PasswordField fx:id="PasswordField1" layoutX="210.0" layoutY="140.0" prefHeight="30.0" prefWidth="290.0" />
+														<Button layoutX="240.0" layoutY="220.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Login" />
+													</children>
+												</AnchorPane>
 											</content>
 										</Tab>
 										<Tab text="Doctor">
 											<content>
 												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                                       <children>
-                                          <Button layoutX="240.0" layoutY="200.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Login" />
-                                          <Text fx:id="nameText11" layoutX="177.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
-                                             <font>
-                                                <Font size="19.0" />
-                                             </font>
-                                          </Text>
-                                          <TextField fx:id="nameField11" layoutX="274.0" layoutY="70.0" />
-                                          <PasswordField fx:id="PasswordField11" layoutX="274.0" layoutY="111.0" />
-                                          <Text fx:id="passworfText11" layoutX="179.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
-                                             <font>
-                                                <Font size="19.0" />
-                                             </font>
-                                          </Text>
-                                       </children></AnchorPane>
+													<children>
+														<Text fx:id="nameText11" layoutX="100.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
+															<font>
+																<Font size="19.0" />
+															</font>
+														</Text>
+														<Text fx:id="passworfText11" layoutX="100.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
+															<font>
+																<Font size="19.0" />
+															</font>
+														</Text>
+														<TextField fx:id="nameField11" layoutX="210.0" layoutY="80.0" prefHeight="30.0" prefWidth="290.0" />
+														<PasswordField fx:id="PasswordField11" layoutX="210.0" layoutY="140.0" prefHeight="30.0" prefWidth="290.0" />
+														<Button layoutX="240.0" layoutY="220.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Login" />
+													</children>
+												</AnchorPane>
 											</content>
 										</Tab>
 									</tabs>
